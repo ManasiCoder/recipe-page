@@ -6,7 +6,8 @@
 
 body {
   font-family: var(--normal-font);
-  font-weight: 300;
+  font-weight: 400;
+  color: var(--stone-600)
 }
 
 .container {

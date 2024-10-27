@@ -1,0 +1,10 @@
+.description {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.description h1 {
+  font-family: var(--title-font);
+  font-size: 2rem;
+}
+
