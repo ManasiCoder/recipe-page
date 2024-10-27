@@ -1,3 +1,5 @@
+/* SECTION DESCRIPTION */
+
 .description {
   display: grid;
   gap: 1.2rem;
@@ -6,5 +8,37 @@
 .description h1 {
   font-family: var(--title-font);
   font-size: 2rem;
+  color: var(--stone-900);
 }
 
+.description p {
+  line-height: 1.5rem;
+}
+
+
+/* SECTION PREPARATION */
+
+.preparation {
+  padding: 1.4rem;
+  display: grid;
+  gap: 1.2rem;
+  background-color: var(--rose-50);
+  border-radius: 8px;
+}
+
+.preparation span.time-title {
+  color: var(--rose-800);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.preparation ul {
+  padding-left: 0.8rem;
+  display: grid;
+  gap: 1rem;
+  list-style-position: inside;
+}
+
+.preparation ul li .time {
+  font-weight: 600;
+}

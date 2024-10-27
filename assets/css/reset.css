@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--normal-font);
 }
 
 body {
-  font-family: var(--normal-font);
   font-weight: 400;
   color: var(--stone-600)
 }
@@ -13,4 +13,6 @@ body {
 .container {
   width: 100%;
   padding: 2rem;
+  display: grid;
+  gap: 1.4rem;
 }
