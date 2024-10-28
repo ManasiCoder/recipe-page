@@ -5,17 +5,14 @@
 .ingredients,
 .instructions,
 .nutrition,
-.container-nutrition {
-  display: grid;
-  gap: 1.2rem;
-}
-
+.container-nutrition,
 .preparation ul,
 .ingredients ul,
 .instructions ol {
   display: grid;
-  gap: 1rem;
+  gap: 1.2rem;
 }
+
 
 /* SECTION DESCRIPTION */
 
