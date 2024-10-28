@@ -14,5 +14,11 @@ body {
   width: 100%;
   padding: 2rem;
   display: grid;
-  gap: 1.4rem;
+  gap: 2rem;
+}
+
+h2 {
+  font-family: var(--title-font);
+  font-weight: 500;
+  color: var(--brown-800);
 }
