@@ -7,11 +7,15 @@
 
 body {
   font-weight: 400;
-  color: var(--stone-600)
+  color: var(--stone-600);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container {
   width: 100%;
+  max-width: 800px;
   padding: 2rem;
   display: grid;
   gap: 2rem;
@@ -21,4 +25,18 @@ h2 {
   font-family: var(--title-font);
   font-weight: 500;
   color: var(--brown-800);
+}
+
+.attribution,
+.attribution a  {
+  text-decoration: none;
+  color: var(--stone-150);
+  text-align: center;
+  font-size: 0.75rem;
+  padding-bottom: 1rem;
+  transition: color .5s;
+}
+
+.attribution a:hover {
+  color: var(--stone-600);
 }

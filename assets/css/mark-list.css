@@ -5,7 +5,7 @@ ul {
 
 ul li {
   position: relative;    
-  padding-left: 20px;  
+  padding-left: 28px;  
 }
 
 ul li::before {
@@ -18,4 +18,16 @@ ul li::before {
   height: 4px;                   
   background-color: var(--brown-800); 
   border-radius: 50%;             
+}
+
+/* OL STYLE */
+
+ol li {
+  position: relative;
+  padding-left: 1rem;
+}
+
+ol li::marker {
+  color: var(--brown-800);
+  font-weight: bold;
 }

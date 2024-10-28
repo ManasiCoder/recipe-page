@@ -2,12 +2,19 @@
 
 .description,
 .preparation,
-.preparation ul,
 .ingredients,
 .instructions,
-.nutrition {
+.nutrition,
+.container-nutrition {
   display: grid;
   gap: 1.2rem;
+}
+
+.preparation ul,
+.ingredients ul,
+.instructions ol {
+  display: grid;
+  gap: 1rem;
 }
 
 /* SECTION DESCRIPTION */
@@ -46,5 +53,38 @@
   font-weight: 600;
 }
 
-/* SECTION INGREDIENTS */
+/* SECTION INSTRUCTIONS */
 
+.instructions ol {
+  max-width: 100%;
+  padding-left: 1.2rem;
+}
+
+.instructions ol li span {
+  font-weight: 700;
+}
+
+/* SECTION NUTRITION */
+
+.container-nutrition {
+  gap: 1rem;
+}
+
+.container-nutrition .box-nutrition {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-nutrition .box-nutrition .name-nutrition,
+.container-nutrition .box-nutrition .value-nutrition {
+  width: 100%;
+}
+
+.container-nutrition .box-nutrition .name-nutrition {
+  padding-left: 10%;
+}
+
+.container-nutrition .box-nutrition .value-nutrition {
+  font-weight: 600;
+  color: var(--brown-800);
+}
