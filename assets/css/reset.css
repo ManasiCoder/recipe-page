@@ -6,17 +6,26 @@
 }
 
 body {
-  font-weight: 400;
-  color: var(--stone-600);
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: 400;
+  color: var(--stone-600);
+  background-color: #F3E5D8;
 }
 
 .container {
   width: 100%;
   max-width: 600px;
+  display: grid;
+  gap: 2rem;
   padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--white);
+}
+
+.section-container {
   display: grid;
   gap: 2rem;
 }
@@ -25,6 +34,10 @@ h2 {
   font-family: var(--title-font);
   font-weight: 500;
   color: var(--brown-800);
+}
+
+.attribution {
+  margin-top: 2rem;
 }
 
 .attribution,
